@@ -2745,7 +2745,8 @@ input[type="radio"]:focus + label:before {
 }
 
 .image.main img {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 736px) {
@@ -2948,8 +2949,24 @@ ul.actions.fit.stacked {
   padding: 0.25em;
 }
 
+.code-icons-about {
+  font-size: 4em;
+  padding: 0.25em;
+  margin: 0.25em auto;
+}
+
+.code-icons-about:hover {
+  color: #6057b3;
+}
+
 .code-icons-wrapper {
   margin-bottom: 1em;
+}
+
+.code-icons-wrapper-about {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
 }
 
 ul.icons {
